@@ -1,0 +1,91 @@
+/* 
+Theme Name: ArtViaEth2022
+Version: 1.0 
+Description: Art.Via.Eth Child theme for Woo. (2/22/2022)
+Author: admin@viaeth.io
+Author URI: http://viaeth.io 
+Template: storefront
+*/
+
+/*--- Front Page ---*/
+/*--- Header ---*/
+.site-header-cart .cart-contents {
+	display: none;
+}
+
+.storefront-secondary-navigation.woocommerce-active .site-header .secondary-navigation {
+	width: 47.8260869565%;
+	float: right;
+	margin-right: -.75em;
+}
+
+.secondary-navigation ul.menu a {
+	color: #404040;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+/*Aligned Front Page Buttons*/
+div[class^="wp-container-"], div[class*=" wp-block-buttons"] {
+	gap: 0.5em;
+	flex-wrap: nowrap;
+	align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+
+/*Removed Bread Crumbs*/
+.woocommerce-breadcrumb {
+	display: none;
+}
+
+/*Removed Search Box*/
+.widget_search form:not(.wp-block-search), .widget_product_search form:not(.wp-block-search) {
+	/* position: relative; */
+	display: none;
+}
+
+/*Removed Page Title*/
+.entry-title {
+	display: none;
+}
+
+.woocommerce-tabs ul.tabs li {
+	display: none;
+}
+
+.storefront-full-width-content .woocommerce-tabs .panel {
+	width: 100%;
+	float: left;
+}
+
+.woocommerce-tabs .panel h2:first-of-type {
+	/* font-size: 1.618em; */
+	margin-bottom: 1em;
+	display: none;
+}
+
+.content-area, .widget-area {
+	margin-bottom: -4.5em;
+}
+
+/*--- Footer ---*/
+.site-footer {
+	color: #6d6d6d;
+	text-align: center;
+	padding: 0 0 0;
+}
+
+.storefront-handheld-footer-bar {
+	display:none;
+}
+
+/*--- Product Page ---*/
+.single-product div.product p.price {
+	display: none;
+}
+
+.single-product div.product form.cart {
+	display: none;
+}
+
